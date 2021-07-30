@@ -234,4 +234,11 @@ rules:
     resources:
       - operandrequests/status
     verbs:
-      - get      
+      - get
+  # OCS
+  - apiGroups:
+      - ocs.ibm.io
+    resources:
+      - ocsclusters
+    verbs:
+      - "*" 
