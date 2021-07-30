@@ -24,7 +24,7 @@ spec:
             worker_ip_1: 10.241.0.34
             worker_ip_2: 10.241.64.34
             worker_ip_3: 10.241.128.35
-            billingType: advanced
+            billingType: hourly
   syncPolicy:
     automated:
       prune: true
