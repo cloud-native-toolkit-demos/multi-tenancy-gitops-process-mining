@@ -14,7 +14,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: operators/ibm-process-mining-operator
+    path: operators/ibm-process-mining
     repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops-services.git
     targetRevision: master
     helm:
