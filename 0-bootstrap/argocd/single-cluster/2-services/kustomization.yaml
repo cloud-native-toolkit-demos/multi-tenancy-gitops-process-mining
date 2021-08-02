@@ -14,7 +14,7 @@ resources:
 
 # IBM Software - Cloud Pak for Business Automation
 #- argocd/operators/ibm-cp4a-operator.yaml
-#####- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
 #- argocd/instances/cp4a-cluster-instance.yaml
 
 # Pre-req for Cloud Pak for Business Automation Operator
