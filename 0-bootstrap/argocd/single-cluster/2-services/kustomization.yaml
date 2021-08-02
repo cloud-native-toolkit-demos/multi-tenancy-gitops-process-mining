@@ -25,7 +25,7 @@ resources:
 - argocd/instances/shared-secrets.yaml
 
 # IBM Foundations / Common Services
-- argocd/operators/ibm-foundations.yaml
+#####- argocd/operators/ibm-foundations.yaml
 
 # IBM Catalogs
 - argocd/operators/ibm-catalogs.yaml
