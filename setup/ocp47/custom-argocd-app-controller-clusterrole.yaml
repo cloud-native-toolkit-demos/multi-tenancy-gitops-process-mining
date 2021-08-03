@@ -241,4 +241,10 @@ rules:
     resources:
       - ocsclusters
     verbs:
-      - "*" 
+      - "*"
+  - apiGroups:                  # Process Mining
+      - processmining.ibm.com   # Process Mining specific API groups
+    resources:
+      - '*'
+    verbs:
+      - '*'   
