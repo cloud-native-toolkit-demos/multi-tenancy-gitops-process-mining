@@ -92,7 +92,7 @@ spec:
   source:
     path: 0-bootstrap/argocd/single-cluster/2-services
     repoURL: https://github.com/jesusmah/multi-tenancy-gitops-process-mining.git
-    targetRevision: kustomize
+    targetRevision: demo
   syncPolicy:
     automated:
       prune: true

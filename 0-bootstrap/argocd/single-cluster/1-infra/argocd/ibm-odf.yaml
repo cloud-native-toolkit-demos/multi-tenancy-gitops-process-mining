@@ -21,9 +21,9 @@ spec:
           ocs:
             storageClass: ocs-initial
             sizeOSD: 512Gi
-            worker_ip_1: 10.241.0.37
-            worker_ip_2: 10.241.64.39
-            worker_ip_3: 10.241.128.40
+            worker_ip_1: 10.241.0.40
+            worker_ip_2: 10.241.64.46
+            worker_ip_3: 10.241.128.46
             billingType: hourly
   syncPolicy:
     automated:
