@@ -33,7 +33,7 @@ resources:
 # IBM Process Mining
 - argocd/operators/ibm-process-mining-operator.yaml
 # IBM Process Mining instance
-# - argocd/instances/ibm-pm-instance.yaml
+- argocd/instances/ibm-pm-instance.yaml
 
 # Required for IBM MQ
 #- argocd/instances/openldap.yaml
