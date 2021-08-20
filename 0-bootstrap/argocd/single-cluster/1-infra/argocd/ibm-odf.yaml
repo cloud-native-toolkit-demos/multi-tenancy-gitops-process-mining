@@ -12,8 +12,8 @@ spec:
     server: https://kubernetes.default.svc
   project: infra
   source:
-    path: odf-ibm
-    repoURL: https://github.ibm.com/ALMARAZJ/roks-infra
+    path: ibm-odf
+    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops-infra.git
     targetRevision: master
     helm:
       values: |
@@ -21,9 +21,9 @@ spec:
           ocs:
             storageClass: ocs-initial
             sizeOSD: 512Gi
-            worker_ip_1: 10.241.0.6
-            worker_ip_2: 10.241.64.5
-            worker_ip_3: 10.241.128.4
+            worker_ip_1: 
+            worker_ip_2: 
+            worker_ip_3:
             billingType: hourly
   syncPolicy:
     automated:
