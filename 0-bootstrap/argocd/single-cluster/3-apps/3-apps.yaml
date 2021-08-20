@@ -5,8 +5,8 @@ metadata:
   name: applications
 spec:
   sourceRepos:
-  - https://github.com/jesusmah/multi-tenancy-gitops-process-mining.git
-  - https://github.com/jesusmah/multi-tenancy-gitops-apps.git
+  - https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-process-mining.git
+  - https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
   destinations:
   - namespace: ci
     server: https://kubernetes.default.svc
@@ -38,7 +38,7 @@ spec:
   project: default
   source:
     path: 0-bootstrap/argocd/single-cluster/3-apps
-    repoURL: https://github.com/jesusmah/multi-tenancy-gitops-process-mining.git
+    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-process-mining.git
     targetRevision: ocp4.7-vpc
   syncPolicy:
     automated:
