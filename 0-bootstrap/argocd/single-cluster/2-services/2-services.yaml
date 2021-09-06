@@ -5,8 +5,8 @@ metadata:
   name: services
 spec:
   sourceRepos:
-  - https://github.com/jesusmah/multi-tenancy-gitops-process-mining.git
-  - https://github.com/jesusmah/multi-tenancy-gitops-apps.git
+  - https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-process-mining.git
+  - https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
   # Do not change the below repository URL
   - https://github.com/cloud-native-toolkit/multi-tenancy-gitops-services.git
   destinations:
@@ -92,8 +92,8 @@ spec:
   project: default
   source:
     path: 0-bootstrap/argocd/single-cluster/2-services
-    repoURL: https://github.com/jesusmah/multi-tenancy-gitops-process-mining.git
-    targetRevision: ocp4.6-classic
+    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-process-mining.git
+    targetRevision: classic
   syncPolicy:
     automated:
       prune: true
