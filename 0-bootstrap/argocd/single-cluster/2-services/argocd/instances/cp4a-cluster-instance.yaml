@@ -13,7 +13,7 @@ spec:
   project: services
   source:
     path: shared/config/cp4a/cp4acluster/cp4a-resources
-    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
+    repoURL: https://github.com/jesusmah/multi-tenancy-gitops-apps.git
     targetRevision: master
     helm:
       values: |
